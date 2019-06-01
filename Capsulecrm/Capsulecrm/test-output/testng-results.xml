@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50454" started-at="2019-05-31T11:21:55Z" finished-at="2019-05-31T11:22:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50454" started-at="2019-05-31T11:21:55Z" finished-at="2019-05-31T11:22:45Z">
+      <class name="testCases.AccountSettingsTestCase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="setup" is-config="true" duration-ms="7076" started-at="2019-05-31T16:51:55Z" finished-at="2019-05-31T16:52:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="accountSettings()[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="accountSettings" duration-ms="6988" started-at="2019-05-31T16:52:02Z" finished-at="2019-05-31T16:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountSettings -->
+        <test-method status="PASS" signature="headerValidation(java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="headerValidation" duration-ms="1034" started-at="2019-05-31T16:52:09Z" data-provider="getCapsuleCRMTestData" finished-at="2019-05-31T16:52:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Account]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerValidation -->
+        <test-method status="PASS" signature="headerValidation(java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="headerValidation" duration-ms="1892" started-at="2019-05-31T16:52:10Z" data-provider="getCapsuleCRMTestData" finished-at="2019-05-31T16:52:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invoices]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invoices]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerValidation -->
+        <test-method status="PASS" signature="headerValidation(java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="headerValidation" duration-ms="826" started-at="2019-05-31T16:52:12Z" data-provider="getCapsuleCRMTestData" finished-at="2019-05-31T16:52:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Export]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Export]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerValidation -->
+        <test-method status="PASS" signature="headerValidation(java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="headerValidation" duration-ms="621" started-at="2019-05-31T16:52:13Z" data-provider="getCapsuleCRMTestData" finished-at="2019-05-31T16:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Appearance]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Appearance]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerValidation -->
+        <test-method status="PASS" signature="headerValidation(java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="headerValidation" duration-ms="925" started-at="2019-05-31T16:52:14Z" data-provider="getCapsuleCRMTestData" finished-at="2019-05-31T16:52:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mail Drop Box]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mail Drop Box]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerValidation -->
+        <test-method status="PASS" signature="headerValidation(java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="headerValidation" duration-ms="693" started-at="2019-05-31T16:52:15Z" data-provider="getCapsuleCRMTestData" finished-at="2019-05-31T16:52:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Users]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Users]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerValidation -->
+        <test-method status="PASS" signature="headerValidation(java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="headerValidation" duration-ms="2095" started-at="2019-05-31T16:52:15Z" data-provider="getCapsuleCRMTestData" finished-at="2019-05-31T16:52:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opportunities]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Opportunities]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerValidation -->
+        <test-method status="PASS" signature="headerValidation(java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="headerValidation" duration-ms="849" started-at="2019-05-31T16:52:17Z" data-provider="getCapsuleCRMTestData" finished-at="2019-05-31T16:52:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tracks]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tracks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerValidation -->
+        <test-method status="PASS" signature="headerValidation(java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="headerValidation" duration-ms="566" started-at="2019-05-31T16:52:18Z" data-provider="getCapsuleCRMTestData" finished-at="2019-05-31T16:52:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Task Categories]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Task Categories]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerValidation -->
+        <test-method status="PASS" signature="headerValidation(java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="headerValidation" duration-ms="950" started-at="2019-05-31T16:52:19Z" data-provider="getCapsuleCRMTestData" finished-at="2019-05-31T16:52:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Custom Fields]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Custom Fields]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerValidation -->
+        <test-method status="PASS" signature="headerValidation(java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="headerValidation" duration-ms="826" started-at="2019-05-31T16:52:20Z" data-provider="getCapsuleCRMTestData" finished-at="2019-05-31T16:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tags]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tags and DataTags]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerValidation -->
+        <test-method status="PASS" signature="headerValidation(java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="headerValidation" duration-ms="739" started-at="2019-05-31T16:52:21Z" data-provider="getCapsuleCRMTestData" finished-at="2019-05-31T16:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Integrations]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Integrations]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerValidation -->
+        <test-method status="PASS" signature="headerValidation(java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="headerValidation" duration-ms="767" started-at="2019-05-31T16:52:21Z" data-provider="getCapsuleCRMTestData" finished-at="2019-05-31T16:52:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Trash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerValidation -->
+        <test-method status="PASS" signature="validateAppearance()[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="validateAppearance" duration-ms="6846" started-at="2019-05-31T16:52:22Z" finished-at="2019-05-31T16:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppearance -->
+        <test-method status="PASS" signature="validateUseradded(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="validateUseradded" duration-ms="3350" started-at="2019-05-31T16:52:29Z" data-provider="getCapsuleCRMUserTestData" finished-at="2019-05-31T16:52:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[snow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jon@snowgmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[snowbaba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUseradded -->
+        <test-method status="PASS" signature="vaildateMileStoneAdded(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="vaildateMileStoneAdded" duration-ms="7227" started-at="2019-05-31T16:52:33Z" data-provider="getCapsuleCRMOpportunitiesTestData" finished-at="2019-05-31T16:52:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yahoo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mission Yahoo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[75.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vaildateMileStoneAdded -->
+        <test-method status="PASS" signature="vaildateTracksAdded(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="vaildateTracksAdded" duration-ms="3587" started-at="2019-05-31T16:52:40Z" data-provider="getCapsuleCRMTrackTestData" finished-at="2019-05-31T16:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Scenario Outline]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Career]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Call]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vaildateTracksAdded -->
+        <test-method status="PASS" signature="validateIntegrationConfigurationButtons()[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="validateIntegrationConfigurationButtons" duration-ms="610" started-at="2019-05-31T16:52:43Z" finished-at="2019-05-31T16:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIntegrationConfigurationButtons -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.AccountSettingsTestCase@6093dd95]" name="tearDown" is-config="true" duration-ms="1068" started-at="2019-05-31T16:52:44Z" finished-at="2019-05-31T16:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AccountSettingsTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

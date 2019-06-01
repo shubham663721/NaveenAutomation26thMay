@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listener.TestNGListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testCases.AccountSettingsTestCase">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="vaildateMileStoneAdded" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.AccountSettingsTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
